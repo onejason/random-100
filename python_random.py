@@ -6,7 +6,7 @@ values = [0]*100
 
 record = dict(zip(keys,values))
 
-for x in range(100):
+for x in range(10000):
    r = random.randint(1,100)
    record[r] = record[r] + 1
 
